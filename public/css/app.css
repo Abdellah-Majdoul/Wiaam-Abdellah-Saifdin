@@ -2,6 +2,100 @@
     margin: 0;
     padding: 0;
 }
+body{
+    padding-top: 3vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar_title{
+ width: 50px;
+
+}
+.navbar_linkbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+}
+span{
+    color: red;
+}
+.linK{
+    color: rgb(16, 18, 24);
+}
+.link_home{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.navbar_button{
+    border: none;
+    border-radius: 3px;
+    color:  red;
+    padding: 6px;
+    background-color: rgb(236, 227, 227);
+   
+    width: 7vw;
+
+}
+.first_section{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left_side{
+display: flex;
+justify-content: space-between;
+gap: 6vh;
+flex-direction: column;
+}
+.right_side{
+width: 200px;
+}
+.bt1{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+    background-color: red;
+    width: 9vw;
+    box-shadow: 1px 1px ;
+}
+.bt2{
+    border: none;
+    border-radius: 15px;
+    color: black;
+    padding: 8px;
+    background-color: white;
+    width: 9vw; 
+    box-shadow: 1px 1px ;
+}
+p{ 
+    font-family: sans-serif;
+    color: rgb(144, 142, 142);
+}
+h1{
+    color: rgb(26, 30, 41) ;
+}
+.button_p{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 6vw;
+
+}
+/*second-section*/
+*{
+    margin: 0;
+    padding: 0;
+}
 .cards{
     background: #fdfdfd;
     display: flex;
